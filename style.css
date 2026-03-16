@@ -1,0 +1,53 @@
+nav a{
+    text-decoration: none;
+    color: rgb(69, 70, 42);;
+}
+#nav{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    background-color:rgb(171, 101, 74);
+}
+.navbar{
+    float: left;
+    padding: 20px;
+    text-align: center;
+}
+.dropdown{
+    display: inline-block;
+    padding: 20px;
+    text-align: center;
+}
+.drpdwn{
+    display: block;
+}
+.dropdowncontent{
+    display: none;
+    position: absolute;
+    padding: 20px;
+    border: 2px solid rgb(69, 70, 42);
+}
+.dropdowncontent a{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    border-bottom: 2px solid rgb(69, 70, 42);
+}
+.dropdown:hover .dropdowncontent{
+    display: block;
+    background-color: rgb(171, 101, 74);
+}
+body{
+    background-color: rgb(245, 243, 201);
+}
+nav li{
+    border-right: 2px solid rgb(69, 70, 42);
+}
+nav li:last-child{
+    border: none;
+}
+nav ul{
+    border: 2px solid rgb(69, 70, 42);
+}
