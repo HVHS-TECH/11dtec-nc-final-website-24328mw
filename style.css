@@ -147,17 +147,7 @@ p1{
     font-size: 20px;
     color: rgb(69, 70, 42);
 }
-.gallery{
-    border: 1px solid rgb(238, 206, 138);
-    float: left;
-}
-.gallery :hover{
-    box-shadow: 0 0 15px rgb(213, 176, 98);
-}
-.desc{
-    padding: 15px;
-    text-align: center;
-}
-.gallery img{
-    width: 80%;
+.scrollcontainer{
+    overflow: auto;
+    white-space: nowrap;
 }
